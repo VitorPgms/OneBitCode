@@ -1,0 +1,20 @@
+body {
+    background-color: aquamarine;
+}
+
+div {
+    background-color: white;
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+}
+
+div textarea {
+   margin-left: 150px;
+}
+
+.botao {
+    margin-left: 225px;
+}

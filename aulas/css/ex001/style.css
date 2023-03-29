@@ -1,0 +1,25 @@
+body {
+    background: url(https://www.jornalcruzeiro.com.br/_midias/jpg/2023/03/22/john_wick_4_baba_yaga____1-1102745.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+    }
+
+main h1{
+        text-align: center;
+    }
+
+    header {
+    background-color: black;
+    color: white;
+    margin: -9px;
+    padding: 10px 10px;
+
+    }
+
+    nav a {
+    text-decoration: none;
+    color: white;
+    }
+

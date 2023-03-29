@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Astronauta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h3>Cadastro da liga dos Astronautas</h3>
+        <form action="/action_page.php">
+            Nome: <input type="text" name="fname"> <br><br>
+            Email: <input type="email" name="email"> Passaword <input type="password" name="senha"> <br><br>
+            Data de Nascimento <input type="date" name="data"><br>
+            Foto <input type="file" name="minhafoto"> <br><br>
+            <label for="nacionalidade">Nacionalidade</label>
+            <select name="nacionalidade" id="nacionalidade">
+                <option value="russo">Russo</option>
+                <option value="americano">Americano</option>
+                <option value="brasileiro">Brasileiro</option>
+            </select>
+            Genero <input type="radio" name="genero" value="F">F
+            <input type="radio" name="genero" value="M">M <br><br>
+            Selecione sua Qualidade <br>
+            <input type="checkbox" name="qualidade" value="inteligencia"> Inteligencia |
+            <input type="checkbox" name="qualidade1" value="resiliencia"> Resiliencia |
+            <input type="checkbox" name="qualidade2" value="preparo"> Preparo Fisico |
+            <input type="checkbox" name="qualidade3" value="educacao"> Educação | <br><br>
+            <textarea name="message" style="width:200px; height:300px;">Porque voce quer ser um astronauta.</textarea>
+          <br>
+          <input class="botao" type="submit" name="Criar">
+        
+        </form>
+        
+    </div>
+</body>
+</html>
