@@ -9,14 +9,15 @@ do {
 
     switch (opcao) {
         case '1':
-            let novoImovel = {prompt}
+            let novoImovel = prompt('Qual o nome do proprietario?')
+            imoveis.push(novoImovel)
             break
         case '2':
             const imovelPuxado = imoveis.pop()
             if(!imoveis) {
                 alert('Não ha imoveis no momento')
             } else {
-                alert('Temos esse imovel' + imovelPuxado)
+                alert('Temos esse imovel ' + imovelPuxado)
             }
             break
         case '3':
