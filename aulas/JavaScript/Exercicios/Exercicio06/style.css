@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkred;
+    font-size: 15px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+section {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
